@@ -1,0 +1,91 @@
+a > img {
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+}
+/*
+Carousel
+*/
+.carousel-item > img {
+    height: calc(100vh - 77px);
+    object-fit: cover;
+    object-position: center;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+select:focus{
+    border: #ffc107 solid 3px;
+    outline: #ffc928 solid 1.5px;
+}
+.bb-warning {
+    border-bottom: #ffc107 solid 3px;
+    border-radius: 3px;
+}
+
+.breadcrum {
+    border-bottom: #ffc107 solid 3px;
+    border-radius: 3px;
+}
+
+.card {
+    border-bottom: #ffc107 solid 3px;
+    border-radius: 3px;
+}
+
+.card > img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+div > iframe {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    border-bottom: #ffc107 solid 3px;
+    border-top: #ffc107 solid 3px;
+    border-radius: 3px;
+}
+
+/*
+ * Footer
+ */
+ .blog-footer {
+    padding: 2.5rem 0;
+    color: #f9f9f9;
+    text-align: center;
+    border-top: .05rem solid #e5e5e5;
+  }
+  .blog-footer p:last-child {
+    margin-bottom: 0;
+  }
+
+  .pantalla {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: calc(100vh - 77px);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .cuadro {
+    background-color: rgb(0, 0, 0, .5);
+    padding: 20px;
+    border-radius: 5px;
+    color: rgb(245, 245, 245, 0.6);
+    width: 69vw;
+    border-bottom: #ffc107 solid 3px;
+  }
+
+  .cuadro > p {
+      font-size: 15px;
+      letter-spacing: 1.2px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
