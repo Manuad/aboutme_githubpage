@@ -9,8 +9,8 @@ a > img {
 Carousel
 */
 .carousel-item > img {
-    height: calc(100vh - 77px);
-    object-fit: cover;
+    height: calc(85vh - 77px);
+    object-fit: contain;
     object-position: center;
 }
 
@@ -81,8 +81,9 @@ div > iframe {
     background-color: rgb(0, 0, 0, .5);
     padding: 20px;
     border-radius: 5px;
-    color: rgb(245, 245, 245, 0.88);
-    width: 69vw;
+    color: rgb(245, 245, 245, 0.99);
+    width: 50vw;
+    margin: 0 auto;
     border-bottom: #ffc107 solid 3px;
   }
 
