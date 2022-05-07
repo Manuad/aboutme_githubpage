@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@100;400;900&family=Roboto+Condensed:wght@300&family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Montserrat:wght@400;500&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,400&display=swap');
 
 a > img {
     width: 200px;
@@ -21,6 +21,7 @@ select:focus{
     border: #ffc107 solid 3px;
     outline: #ffc928 solid 1.5px;
 }
+
 .bb-warning {
     border-bottom: #ffc107 solid 3px;
     border-radius: 3px;
@@ -32,13 +33,26 @@ select:focus{
 }
 
 .card {
+    width: 18rem;
     border-bottom: #ffc107 solid 3px;
+    transition: 300ms;
     border-radius: 3px;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px hwb(45 2% 54%);
 }
 
 .card > img {
     width: 100%;
     height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.imgageLogo {
+    width: 100px;
+    height: auto;
     object-fit: cover;
     object-position: center;
 }
